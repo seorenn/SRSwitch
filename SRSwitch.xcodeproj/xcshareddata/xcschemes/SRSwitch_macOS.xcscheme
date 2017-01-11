@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8A310DE51E25D1CE00B85BBB"
-               BuildableName = "SRSwitch_macOS.framework"
+               BuildableName = "SRSwitch.framework"
                BlueprintName = "SRSwitch_macOS"
                ReferencedContainer = "container:SRSwitch.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8A310DE51E25D1CE00B85BBB"
-            BuildableName = "SRSwitch_macOS.framework"
+            BuildableName = "SRSwitch.framework"
             BlueprintName = "SRSwitch_macOS"
             ReferencedContainer = "container:SRSwitch.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8A310DE51E25D1CE00B85BBB"
-            BuildableName = "SRSwitch_macOS.framework"
+            BuildableName = "SRSwitch.framework"
             BlueprintName = "SRSwitch_macOS"
             ReferencedContainer = "container:SRSwitch.xcodeproj">
          </BuildableReference>

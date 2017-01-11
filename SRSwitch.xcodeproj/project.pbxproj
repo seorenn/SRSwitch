@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		8A310DEB1E25D1CF00B85BBB /* SRSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A310DE91E25D1CF00B85BBB /* SRSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A310DF51E25D1F200B85BBB /* SRSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A310DE91E25D1CF00B85BBB /* SRSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A310DFF1E25D34C00B85BBB /* SRSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A310DFD1E25D34C00B85BBB /* SRSwitch.swift */; };
+		8A310E001E25D34C00B85BBB /* SRTimerSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A310DFE1E25D34C00B85BBB /* SRTimerSwitch.swift */; };
+		8A310E011E25D35200B85BBB /* SRSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A310DFD1E25D34C00B85BBB /* SRSwitch.swift */; };
+		8A310E021E25D35500B85BBB /* SRTimerSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A310DFE1E25D34C00B85BBB /* SRTimerSwitch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +20,8 @@
 		8A310DE91E25D1CF00B85BBB /* SRSwitch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRSwitch.h; sourceTree = "<group>"; };
 		8A310DEA1E25D1CF00B85BBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A310DFA1E25D1F200B85BBB /* SRSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SRSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A310DFD1E25D34C00B85BBB /* SRSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRSwitch.swift; sourceTree = "<group>"; };
+		8A310DFE1E25D34C00B85BBB /* SRTimerSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRTimerSwitch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +62,21 @@
 		8A310DE81E25D1CF00B85BBB /* SRSwitch */ = {
 			isa = PBXGroup;
 			children = (
+				8A310DFC1E25D34C00B85BBB /* Source */,
 				8A310DE91E25D1CF00B85BBB /* SRSwitch.h */,
 				8A310DEA1E25D1CF00B85BBB /* Info.plist */,
 			);
 			path = SRSwitch;
 			sourceTree = "<group>";
+		};
+		8A310DFC1E25D34C00B85BBB /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8A310DFD1E25D34C00B85BBB /* SRSwitch.swift */,
+				8A310DFE1E25D34C00B85BBB /* SRTimerSwitch.swift */,
+			);
+			path = Source;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -175,6 +191,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A310E001E25D34C00B85BBB /* SRTimerSwitch.swift in Sources */,
+				8A310DFF1E25D34C00B85BBB /* SRSwitch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +200,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A310E021E25D35500B85BBB /* SRTimerSwitch.swift in Sources */,
+				8A310E011E25D35200B85BBB /* SRSwitch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
