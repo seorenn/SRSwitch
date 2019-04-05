@@ -6,7 +6,7 @@
 //  Copyright © 2017년 Seorenn. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for SRSwitch.
 FOUNDATION_EXPORT double SRSwitchVersionNumber;
